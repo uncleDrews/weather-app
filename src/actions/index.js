@@ -9,6 +9,7 @@ export const FETCH_WEATHER = 'FETCH_WEATHER';
 export function fetchWeather(cityName){
     const url = `${ROOT_URL}&q=${cityName},ua`;
     const request = axios.get(url, {crossDomain: true});
+    console.log(request);
 
     return {
         type: FETCH_WEATHER,
