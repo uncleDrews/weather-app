@@ -32,7 +32,7 @@ class SearchBar extends Component {
                         <input
                             className='form-control'
                             type="text"
-                            placeholder='Get your five-day forecast in your favourite Ukraine cities!'
+                            placeholder='Get your five-day forecast in your favourite Ukraine cities! (Type in English, please)'
                             value={this.state.term}
                             onChange={this.onSearchInputChange} />
                     </div>

@@ -33,7 +33,7 @@ class WeatherList extends Component{
                         City
                     </th>
                     <th>
-                        Temperature (k)
+                        Temperature (Kelvin)
                     </th>
                     <th>
                         Pressure (hPa)
